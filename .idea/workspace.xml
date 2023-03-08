@@ -1,18 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c51999c6-4b54-43e0-8e5c-1cd17f4a77fa" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DSA_2023_G1.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/searching/KerkimiBinar.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/searching/KerkimiSekuencial.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/searching/UshtrimeArrayList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/searching/UshtrimeMeArray.java" afterDir="false" />
+    <list default="true" id="c51999c6-4b54-43e0-8e5c-1cd17f4a77fa" name="Changes" comment="kerkimi binar">
+      <change afterPath="$PROJECT_DIR$/src/recursion/Binary.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/recursion/CollatzSequence.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/recursion/Factorial.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/recursion/GFG.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,17 +29,69 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;full.screen.before.presentation.mode&quot;: &quot;true&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "full.screen.before.presentation.mode": "false",
+    "settings.editor.selected.configurable": "preferences.lookFeel",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
-  <component name="RunManager" selected="Application.KerkimiBinar">
+}]]></component>
+  <component name="RunManager" selected="Application.CollatzSequence">
+    <configuration name="Binary" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="recursion.Binary" />
+      <module name="DSA_2023_G1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="recursion.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CollatzSequence" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="recursion.CollatzSequence" />
+      <module name="DSA_2023_G1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="recursion.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Factorial" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="recursion.Factorial" />
+      <module name="DSA_2023_G1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="recursion.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GFG" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="recursion.GFG" />
+      <module name="DSA_2023_G1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="recursion.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="KerkimiBinar" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="searching.KerkimiBinar" />
       <module name="DSA_2023_G1" />
@@ -59,37 +105,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="KerkimiSekuencial" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="searching.KerkimiSekuencial" />
-      <module name="DSA_2023_G1" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="searching.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="UshtrimeArrayList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="searching.UshtrimeArrayList" />
-      <module name="DSA_2023_G1" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="searching.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.CollatzSequence" />
+        <item itemvalue="Application.GFG" />
+        <item itemvalue="Application.Factorial" />
+        <item itemvalue="Application.Binary" />
         <item itemvalue="Application.KerkimiBinar" />
-        <item itemvalue="Application.KerkimiSekuencial" />
-        <item itemvalue="Application.UshtrimeArrayList" />
       </list>
     </recent_temporary>
   </component>
@@ -103,11 +125,25 @@
       <updated>1677860178725</updated>
       <workItem from="1677860179819" duration="5167000" />
       <workItem from="1677867815095" duration="14000" />
+      <workItem from="1678222490825" duration="93000" />
+      <workItem from="1678291540573" duration="4697000" />
     </task>
+    <task id="LOCAL-00001" summary="kerkimi binar">
+      <created>1678222544639</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1678222544639</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="kerkimi binar" />
+    <option name="LAST_COMMIT_MESSAGE" value="kerkimi binar" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -121,6 +157,16 @@
           <url>file://$PROJECT_DIR$/src/searching/KerkimiBinar.java</url>
           <line>10</line>
           <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/recursion/GFG.java</url>
+          <line>4</line>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/recursion/GFG.java</url>
+          <line>12</line>
+          <option name="timeStamp" value="8" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
