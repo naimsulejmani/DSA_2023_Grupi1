@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="c51999c6-4b54-43e0-8e5c-1cd17f4a77fa" name="Changes" comment="Recursion">
-      <change afterPath="$PROJECT_DIR$/src/recursion/BinaryRecursion.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/recursion/BinaryRecursionErblinZulfaj.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/searching/ushtrime/Detyra1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/searching/ushtrime/Detyra1Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/searching/ushtrime/Detyra3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/searching/ushtrime/Minimumi.java" afterDir="false" />
+    <list default="true" id="c51999c6-4b54-43e0-8e5c-1cd17f4a77fa" name="Changes" comment="Ushtrime">
+      <change afterPath="$PROJECT_DIR$/src/elementary_sorts/BubbleSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/elementary_sorts/SelectionSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/shared/ArrayGenerator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/shared/ArrayGeneratorTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -31,23 +32,27 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;full.screen.before.presentation.mode&quot;: &quot;false&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "full.screen.before.presentation.mode": "false",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "settings.editor.selected.configurable": "preferences.lookFeel",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
-  <component name="RunManager" selected="Application.Detyra1Test">
-    <configuration name="BinaryRecursion" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="recursion.BinaryRecursion" />
+}]]></component>
+  <component name="RunManager" selected="Application.SelectionSort">
+    <configuration name="ArrayGeneratorTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="shared.ArrayGeneratorTest" />
       <module name="DSA_2023_G1" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="recursion.*" />
+          <option name="PATTERN" value="shared.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -68,12 +73,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CollatzSequence" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="recursion.CollatzSequence" />
+    <configuration name="BubbleSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="elementary_sorts.BubbleSort" />
       <module name="DSA_2023_G1" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="recursion.*" />
+          <option name="PATTERN" value="elementary_sorts.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -94,12 +99,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GFG" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="recursion.GFG" />
+    <configuration name="SelectionSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="elementary_sorts.SelectionSort" />
       <module name="DSA_2023_G1" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="recursion.*" />
+          <option name="PATTERN" value="elementary_sorts.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -109,11 +114,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SelectionSort" />
+        <item itemvalue="Application.BubbleSort" />
+        <item itemvalue="Application.ArrayGeneratorTest" />
         <item itemvalue="Application.Detyra1Test" />
         <item itemvalue="Application.BinaryRecursionErblinZulfaj" />
-        <item itemvalue="Application.BinaryRecursion" />
-        <item itemvalue="Application.CollatzSequence" />
-        <item itemvalue="Application.GFG" />
       </list>
     </recent_temporary>
   </component>
@@ -131,7 +136,9 @@
       <workItem from="1678291540573" duration="4697000" />
       <workItem from="1678303771384" duration="21000" />
       <workItem from="1678378452428" duration="14000" />
-      <workItem from="1678464920311" duration="3982000" />
+      <workItem from="1678464920311" duration="4189000" />
+      <workItem from="1678472692534" duration="11000" />
+      <workItem from="1678896437958" duration="5188000" />
     </task>
     <task id="LOCAL-00001" summary="kerkimi binar">
       <created>1678222544639</created>
@@ -147,7 +154,14 @@
       <option name="project" value="LOCAL" />
       <updated>1678303782576</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Ushtrime">
+      <created>1678470767735</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1678470767735</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -156,7 +170,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="kerkimi binar" />
     <MESSAGE value="Recursion" />
-    <option name="LAST_COMMIT_MESSAGE" value="Recursion" />
+    <MESSAGE value="Ushtrime" />
+    <option name="LAST_COMMIT_MESSAGE" value="Ushtrime" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
