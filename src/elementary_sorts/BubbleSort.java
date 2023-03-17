@@ -13,9 +13,10 @@ public class BubbleSort {
                 if (array[j] > array[j + 1]) {
                     // SWAP ELEMENTS
                     swapped = true;
-                    int temp = array[j]; // ruaje array-j ne nje variable te perkohshme
-                    array[j] = array[j + 1]; // ruaj ne array-j tashme elementin vijues
-                    array[j + 1] = temp; // ne elemetin vijues ruaje variablen e perkohshme (array-y)
+//                    int temp = array[j]; // ruaje array-j ne nje variable te perkohshme
+//                    array[j] = array[j + 1]; // ruaj ne array-j tashme elementin vijues
+//                    array[j + 1] = temp; // ne elemetin vijues ruaje variablen e perkohshme (array-y)
+                    Helper.swap(array, j, j + 1);
                 }
             }
         }
@@ -27,9 +28,10 @@ public class BubbleSort {
             for (int j = 0; j < array.length - 1; j++) {
                 if (array[j] > array[j + 1]) {
                     // SWAP ELEMENTS
-                    int temp = array[j]; // ruaje array-j ne nje variable te perkohshme
-                    array[j] = array[j + 1]; // ruaj ne array-j tashme elementin vijues
-                    array[j + 1] = temp; // ne elemetin vijues ruaje variablen e perkohshme (array-y)
+//                    int temp = array[j]; // ruaje array-j ne nje variable te perkohshme
+//                    array[j] = array[j + 1]; // ruaj ne array-j tashme elementin vijues
+//                    array[j + 1] = temp; // ne elemetin vijues ruaje variablen e perkohshme (array-y)
+                    Helper.swap(array, j, j + 1);
                 }
             }
         }

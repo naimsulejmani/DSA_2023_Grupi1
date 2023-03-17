@@ -17,6 +17,12 @@ public class Helper {
         }
         System.out.println();
     }
+
+    public static void swap(int[] array, int from, int to) {
+        int temp = array[from];
+        array[from] = array[to];
+        array[to] = temp;
+    }
 }
 
 
