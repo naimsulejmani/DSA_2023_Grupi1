@@ -1,6 +1,6 @@
 package elementary_sorts;
 
-import shared.ArrayGenerator;
+import shared.Helper;
 
 public class SelectionSort {
     public static void selectionSort(int[] array) {
@@ -24,12 +24,12 @@ public class SelectionSort {
     }
 
     public static void main(String[] args) {
-        int[] array = ArrayGenerator.generate(10, 1, 100);
+        int[] array = Helper.generate(10, 1, 100);
         System.out.println("Vargu i pasortuar!");
-        ArrayGenerator.print(array);
+        Helper.print(array);
         selectionSort(array);
         System.out.println("Vargu i sortuar: ");
-        ArrayGenerator.print(array);
+        Helper.print(array);
     }
 
 }

@@ -1,7 +1,6 @@
 package elementary_sorts;
 
-import shared.ArrayGenerator;
-import shared.ArrayGeneratorTest;
+import shared.Helper;
 
 public class BubbleSort {
 
@@ -37,13 +36,13 @@ public class BubbleSort {
     }
 
     public static void main(String[] args) {
-        int[] array = ArrayGenerator.generate(10, 1, 100);
+        int[] array = Helper.generate(10, 1, 100);
         System.out.println("Vargu i pasortuar");
-        ArrayGenerator.print(array);
+        Helper.print(array);
         bubbleSortEnhanced(array); // sorto elementet
         //bubbleSort(array);
         System.out.println("Vargu i sortuar");
-        ArrayGenerator.print(array);
+        Helper.print(array);
     }
 }
 

@@ -1,6 +1,6 @@
 package shared;
 
-public class ArrayGenerator {
+public class Helper {
     public static int[] generate(int length, int minValue, int maxValue) {
         int[] array = new int[length];
 

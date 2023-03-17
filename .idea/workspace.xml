@@ -4,12 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c51999c6-4b54-43e0-8e5c-1cd17f4a77fa" name="Changes" comment="Ushtrime">
-      <change afterPath="$PROJECT_DIR$/src/elementary_sorts/BubbleSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/elementary_sorts/SelectionSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/shared/ArrayGenerator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/shared/ArrayGeneratorTest.java" afterDir="false" />
+    <list default="true" id="c51999c6-4b54-43e0-8e5c-1cd17f4a77fa" name="Changes" comment="bubble and selection sort">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/elementary_sorts/BubbleSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/elementary_sorts/BubbleSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/elementary_sorts/SelectionSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/elementary_sorts/SelectionSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/shared/ArrayGenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/shared/Helper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/shared/ArrayGeneratorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/shared/ArrayGeneratorTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,27 +32,27 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "full.screen.before.presentation.mode": "false",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "settings.editor.selected.configurable": "preferences.lookFeel",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;full.screen.before.presentation.mode&quot;: &quot;false&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected="Application.SelectionSort">
     <configuration name="ArrayGeneratorTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="shared.ArrayGeneratorTest" />
       <module name="DSA_2023_G1" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="shared.*" />
+          <option name="PATTERN" value="shared.Helper" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -139,6 +139,10 @@
       <workItem from="1678464920311" duration="4189000" />
       <workItem from="1678472692534" duration="11000" />
       <workItem from="1678896437958" duration="5188000" />
+      <workItem from="1678908690263" duration="25000" />
+      <workItem from="1678983216976" duration="12000" />
+      <workItem from="1678984855902" duration="648000" />
+      <workItem from="1679069539885" duration="61000" />
     </task>
     <task id="LOCAL-00001" summary="kerkimi binar">
       <created>1678222544639</created>
@@ -161,7 +165,14 @@
       <option name="project" value="LOCAL" />
       <updated>1678470767735</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="bubble and selection sort">
+      <created>1678908707474</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1678908707474</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -171,7 +182,8 @@
     <MESSAGE value="kerkimi binar" />
     <MESSAGE value="Recursion" />
     <MESSAGE value="Ushtrime" />
-    <option name="LAST_COMMIT_MESSAGE" value="Ushtrime" />
+    <MESSAGE value="bubble and selection sort" />
+    <option name="LAST_COMMIT_MESSAGE" value="bubble and selection sort" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
