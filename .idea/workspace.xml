@@ -4,13 +4,19 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c51999c6-4b54-43e0-8e5c-1cd17f4a77fa" name="Changes" comment="Linked List">
-      <change afterPath="$PROJECT_DIR$/src/linked_lists/doubly/DoublyLinkedList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/linked_lists/doubly/DoublyNode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/linked_lists/doubly/DoublyTest.java" afterDir="false" />
+    <list default="true" id="c51999c6-4b54-43e0-8e5c-1cd17f4a77fa" name="Changes" comment="Doubly Linked List">
+      <change afterPath="$PROJECT_DIR$/src/linked_lists/generics/LinkedList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/linked_lists/generics/LinkedListTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/linked_lists/generics/Node.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/linked_lists/generics/NodeTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/linked_lists/stacks/Element.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/linked_lists/stacks/Stack.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/linked_lists/stacks/StackArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/linked_lists/stacks/StackArrayTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/linked_lists/stacks/StackOverflowException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/linked_lists/stacks/StackTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/linked_lists/stacks/StackUnderflowException.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/linked_lists/LinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/linked_lists/LinkedList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/linked_lists/LinkedListTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/linked_lists/LinkedListTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,20 +60,7 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.DoublyTest">
-    <configuration name="CounterTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="adts.CounterTest" />
-      <module name="DSA_2023_G1" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="adts.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.StackArrayTest">
     <configuration name="DoublyTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="linked_lists.doubly.DoublyTest" />
       <module name="DSA_2023_G1" />
@@ -81,12 +74,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LinkedListTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="linked_lists.LinkedListTest" />
+    <configuration name="StackArrayTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="linked_lists.stacks.StackArrayTest" />
       <module name="DSA_2023_G1" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="linked_lists.*" />
+          <option name="PATTERN" value="linked_lists.stacks.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -94,12 +87,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NodeTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="linked_lists.NodeTest" />
+    <configuration name="StackTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="linked_lists.stacks.StackTest" />
       <module name="DSA_2023_G1" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="linked_lists.*" />
+          <option name="PATTERN" value="linked_lists.stacks.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -107,12 +100,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TransactionTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="adts.TransactionTest" />
+    <configuration name="linked_lists.generics.LinkedListTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="linked_lists.generics.LinkedListTest" />
       <module name="DSA_2023_G1" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="adts.*" />
+          <option name="PATTERN" value="linked_lists.generics.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="linked_lists.generics.NodeTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="linked_lists.generics.NodeTest" />
+      <module name="DSA_2023_G1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="linked_lists.generics.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -122,11 +128,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.StackArrayTest" />
+        <item itemvalue="Application.StackTest" />
+        <item itemvalue="Application.linked_lists.generics.LinkedListTest" />
+        <item itemvalue="Application.linked_lists.generics.NodeTest" />
         <item itemvalue="Application.DoublyTest" />
-        <item itemvalue="Application.LinkedListTest" />
-        <item itemvalue="Application.NodeTest" />
-        <item itemvalue="Application.TransactionTest" />
-        <item itemvalue="Application.CounterTest" />
       </list>
     </recent_temporary>
   </component>
@@ -158,7 +164,13 @@
       <workItem from="1680202337817" duration="39000" />
       <workItem from="1680278865842" duration="3332000" />
       <workItem from="1680706824618" duration="57000" />
-      <workItem from="1680706890580" duration="8385000" />
+      <workItem from="1680706890580" duration="8424000" />
+      <workItem from="1680793484748" duration="22000" />
+      <workItem from="1680880533067" duration="4433000" />
+      <workItem from="1681313262501" duration="592000" />
+      <workItem from="1681313928355" duration="669000" />
+      <workItem from="1681318810864" duration="4030000" />
+      <workItem from="1681399268628" duration="6000" />
     </task>
     <task id="LOCAL-00001" summary="kerkimi binar">
       <created>1678222544639</created>
@@ -216,7 +228,14 @@
       <option name="project" value="LOCAL" />
       <updated>1680706844893</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Doubly Linked List">
+      <created>1680720473139</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1680720473139</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -231,7 +250,8 @@
     <MESSAGE value="insertion sort" />
     <MESSAGE value="adts and procedural abstraction" />
     <MESSAGE value="Linked List" />
-    <option name="LAST_COMMIT_MESSAGE" value="Linked List" />
+    <MESSAGE value="Doubly Linked List" />
+    <option name="LAST_COMMIT_MESSAGE" value="Doubly Linked List" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
