@@ -4,18 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c51999c6-4b54-43e0-8e5c-1cd17f4a77fa" name="Changes" comment="Doubly Linked List">
-      <change afterPath="$PROJECT_DIR$/src/linked_lists/generics/LinkedList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/linked_lists/generics/LinkedListTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/linked_lists/generics/Node.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/linked_lists/generics/NodeTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/linked_lists/stacks/Element.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/linked_lists/stacks/Stack.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/linked_lists/stacks/StackArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/linked_lists/stacks/StackArrayTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/linked_lists/stacks/StackOverflowException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/linked_lists/stacks/StackTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/linked_lists/stacks/StackUnderflowException.java" afterDir="false" />
+    <list default="true" id="c51999c6-4b54-43e0-8e5c-1cd17f4a77fa" name="Changes" comment="Stack implementations">
+      <change afterPath="$PROJECT_DIR$/src/linked_lists/queues/Queue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/linked_lists/queues/QueueOverflowException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/linked_lists/queues/QueueTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/linked_lists/queues/QueueUnderflowException.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -60,13 +53,13 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.StackArrayTest">
-    <configuration name="DoublyTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="linked_lists.doubly.DoublyTest" />
+  <component name="RunManager" selected="Application.QueueTest">
+    <configuration name="QueueTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="linked_lists.queues.QueueTest" />
       <module name="DSA_2023_G1" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="linked_lists.doubly.*" />
+          <option name="PATTERN" value="linked_lists.queues.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -128,11 +121,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.QueueTest" />
         <item itemvalue="Application.StackArrayTest" />
         <item itemvalue="Application.StackTest" />
         <item itemvalue="Application.linked_lists.generics.LinkedListTest" />
         <item itemvalue="Application.linked_lists.generics.NodeTest" />
-        <item itemvalue="Application.DoublyTest" />
       </list>
     </recent_temporary>
   </component>
@@ -171,6 +164,8 @@
       <workItem from="1681313928355" duration="669000" />
       <workItem from="1681318810864" duration="4030000" />
       <workItem from="1681399268628" duration="6000" />
+      <workItem from="1681481046634" duration="20000" />
+      <workItem from="1681484861451" duration="4686000" />
     </task>
     <task id="LOCAL-00001" summary="kerkimi binar">
       <created>1678222544639</created>
@@ -235,7 +230,14 @@
       <option name="project" value="LOCAL" />
       <updated>1680720473139</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Stack implementations">
+      <created>1681481056524</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1681481056524</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -251,7 +253,8 @@
     <MESSAGE value="adts and procedural abstraction" />
     <MESSAGE value="Linked List" />
     <MESSAGE value="Doubly Linked List" />
-    <option name="LAST_COMMIT_MESSAGE" value="Doubly Linked List" />
+    <MESSAGE value="Stack implementations" />
+    <option name="LAST_COMMIT_MESSAGE" value="Stack implementations" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
