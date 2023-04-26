@@ -1,4 +1,4 @@
-package linked_lists.stacks;
+package stacks;
 
 public class StackUnderflowException extends Exception {
     public StackUnderflowException() {

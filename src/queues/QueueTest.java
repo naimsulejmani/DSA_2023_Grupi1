@@ -1,4 +1,4 @@
-package linked_lists.queues;
+package queues;
 
 public class QueueTest {
     public static void main(String[] args) throws QueueOverflowException, QueueUnderflowException {

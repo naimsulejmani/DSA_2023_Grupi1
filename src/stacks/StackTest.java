@@ -1,4 +1,4 @@
-package linked_lists.stacks;
+package stacks;
 
 public class StackTest {
     public static void main(String[] args) throws StackOverflowException, StackUnderflowException {

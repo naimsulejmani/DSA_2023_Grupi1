@@ -1,4 +1,4 @@
-package linked_lists.stacks;
+package stacks;
 
 public class Element<T> {
     private T data;

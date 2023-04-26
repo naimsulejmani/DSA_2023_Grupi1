@@ -4,11 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c51999c6-4b54-43e0-8e5c-1cd17f4a77fa" name="Changes" comment="Stack implementations">
-      <change afterPath="$PROJECT_DIR$/src/linked_lists/queues/Queue.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/linked_lists/queues/QueueOverflowException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/linked_lists/queues/QueueTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/linked_lists/queues/QueueUnderflowException.java" afterDir="false" />
+    <list default="true" id="c51999c6-4b54-43e0-8e5c-1cd17f4a77fa" name="Changes" comment="Queue implementations">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -55,11 +51,11 @@
 }</component>
   <component name="RunManager" selected="Application.QueueTest">
     <configuration name="QueueTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="linked_lists.queues.QueueTest" />
+      <option name="MAIN_CLASS_NAME" value="queues.QueueTest" />
       <module name="DSA_2023_G1" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="linked_lists.queues.*" />
+          <option name="PATTERN" value="queues.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -68,11 +64,11 @@
       </method>
     </configuration>
     <configuration name="StackArrayTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="linked_lists.stacks.StackArrayTest" />
+      <option name="MAIN_CLASS_NAME" value="stacks.StackArrayTest" />
       <module name="DSA_2023_G1" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="linked_lists.stacks.*" />
+          <option name="PATTERN" value="stacks.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -81,11 +77,11 @@
       </method>
     </configuration>
     <configuration name="StackTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="linked_lists.stacks.StackTest" />
+      <option name="MAIN_CLASS_NAME" value="stacks.StackTest" />
       <module name="DSA_2023_G1" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="linked_lists.stacks.*" />
+          <option name="PATTERN" value="stacks.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -166,6 +162,8 @@
       <workItem from="1681399268628" duration="6000" />
       <workItem from="1681481046634" duration="20000" />
       <workItem from="1681484861451" duration="4686000" />
+      <workItem from="1681744118197" duration="18000" />
+      <workItem from="1682521196876" duration="15000" />
     </task>
     <task id="LOCAL-00001" summary="kerkimi binar">
       <created>1678222544639</created>
@@ -237,7 +235,14 @@
       <option name="project" value="LOCAL" />
       <updated>1681481056524</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Queue implementations">
+      <created>1681744127618</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1681744127618</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -254,7 +259,8 @@
     <MESSAGE value="Linked List" />
     <MESSAGE value="Doubly Linked List" />
     <MESSAGE value="Stack implementations" />
-    <option name="LAST_COMMIT_MESSAGE" value="Stack implementations" />
+    <MESSAGE value="Queue implementations" />
+    <option name="LAST_COMMIT_MESSAGE" value="Queue implementations" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

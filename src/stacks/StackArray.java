@@ -1,4 +1,4 @@
-package linked_lists.stacks;
+package stacks;
 
 public class StackArray<T> {
     private final int MAX_SIZE;

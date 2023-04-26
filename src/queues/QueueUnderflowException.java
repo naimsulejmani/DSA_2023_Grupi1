@@ -1,4 +1,4 @@
-package linked_lists.queues;
+package queues;
 
 public class QueueUnderflowException extends Exception {
     public QueueUnderflowException() {
