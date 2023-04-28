@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c51999c6-4b54-43e0-8e5c-1cd17f4a77fa" name="Changes" comment="Queue implementations">
+    <list default="true" id="c51999c6-4b54-43e0-8e5c-1cd17f4a77fa" name="Changes" comment="rearranging the files">
+      <change afterPath="$PROJECT_DIR$/src/trees/TreeMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/trees/bst/BinarySearchTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/trees/bst/Node.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -164,6 +167,7 @@
       <workItem from="1681484861451" duration="4686000" />
       <workItem from="1681744118197" duration="18000" />
       <workItem from="1682521196876" duration="15000" />
+      <workItem from="1682521249384" duration="2371000" />
     </task>
     <task id="LOCAL-00001" summary="kerkimi binar">
       <created>1678222544639</created>
@@ -242,7 +246,14 @@
       <option name="project" value="LOCAL" />
       <updated>1681744127618</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="rearranging the files">
+      <created>1682521288513</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1682521288513</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -260,7 +271,8 @@
     <MESSAGE value="Doubly Linked List" />
     <MESSAGE value="Stack implementations" />
     <MESSAGE value="Queue implementations" />
-    <option name="LAST_COMMIT_MESSAGE" value="Queue implementations" />
+    <MESSAGE value="rearranging the files" />
+    <option name="LAST_COMMIT_MESSAGE" value="rearranging the files" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
