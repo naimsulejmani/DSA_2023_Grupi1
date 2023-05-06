@@ -4,10 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c51999c6-4b54-43e0-8e5c-1cd17f4a77fa" name="Changes" comment="Binary search tree started">
-      <change afterPath="$PROJECT_DIR$/src/hashtable/Person.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/hashtable/PersonTestHash.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/hashtable/Telefoni.java" afterDir="false" />
+    <list default="true" id="c51999c6-4b54-43e0-8e5c-1cd17f4a77fa" name="Changes" comment="hashCode &amp; hashFunction">
+      <change afterPath="$PROJECT_DIR$/src/hashtable/AbstractHashTable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/hashtable/HashTable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/hashtable/HashTableTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/hashtable/Node.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/hashtable/NodeTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -40,7 +42,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
-    "full.screen.before.presentation.mode": "true",
+    "full.screen.before.presentation.mode": "false",
     "git-widget-placeholder": "master",
     "ignore.virus.scanning.warn.message": "true",
     "node.js.detected.package.eslint": "true",
@@ -52,7 +54,33 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.PersonTestHash">
+  <component name="RunManager" selected="Application.HashTableTest">
+    <configuration name="HashTableTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="hashtable.HashTableTest" />
+      <module name="DSA_2023_G1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="hashtable.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="NodeTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="hashtable.NodeTest" />
+      <module name="DSA_2023_G1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="hashtable.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="PersonTestHash" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="hashtable.PersonTestHash" />
       <module name="DSA_2023_G1" />
@@ -79,32 +107,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StackArrayTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="stacks.StackArrayTest" />
-      <module name="DSA_2023_G1" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="stacks.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="StackTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="stacks.StackTest" />
-      <module name="DSA_2023_G1" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="stacks.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="TreeMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="trees.TreeMain" />
       <module name="DSA_2023_G1" />
@@ -120,11 +122,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.HashTableTest" />
+        <item itemvalue="Application.NodeTest" />
         <item itemvalue="Application.PersonTestHash" />
         <item itemvalue="Application.TreeMain" />
         <item itemvalue="Application.QueueTest" />
-        <item itemvalue="Application.StackArrayTest" />
-        <item itemvalue="Application.StackTest" />
       </list>
     </recent_temporary>
   </component>
@@ -169,7 +171,9 @@
       <workItem from="1682521196876" duration="15000" />
       <workItem from="1682521249384" duration="2371000" />
       <workItem from="1682694459878" duration="5002000" />
-      <workItem from="1683127411432" duration="3857000" />
+      <workItem from="1683127411432" duration="3874000" />
+      <workItem from="1683281892298" duration="303000" />
+      <workItem from="1683300052597" duration="5260000" />
     </task>
     <task id="LOCAL-00001" summary="kerkimi binar">
       <created>1678222544639</created>
@@ -269,7 +273,14 @@
       <option name="project" value="LOCAL" />
       <updated>1683127419087</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="hashCode &amp; hashFunction">
+      <created>1683132604305</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1683132604305</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -289,7 +300,8 @@
     <MESSAGE value="Queue implementations" />
     <MESSAGE value="rearranging the files" />
     <MESSAGE value="Binary search tree started" />
-    <option name="LAST_COMMIT_MESSAGE" value="Binary search tree started" />
+    <MESSAGE value="hashCode &amp; hashFunction" />
+    <option name="LAST_COMMIT_MESSAGE" value="hashCode &amp; hashFunction" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
