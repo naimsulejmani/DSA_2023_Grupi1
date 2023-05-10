@@ -20,10 +20,10 @@ public class HeapSort<T extends Comparable<T>> implements Sortable<T> {
         int leftIndex = currentIndex * 2 + 1;
         int rightIndex = currentIndex * 2 + 2; // leftIndex + 1;
 
-        if (largest < length && array[leftIndex].compareTo(array[largest]) > 0) {
+        if (leftIndex < length && array[leftIndex].compareTo(array[largest]) > 0) {
             largest = leftIndex;
         }
-        if (largest < length && array[rightIndex].compareTo(array[largest]) > 0) {
+        if (rightIndex < length && array[rightIndex].compareTo(array[largest]) > 0) {
             largest = rightIndex;
         }
         if (currentIndex != largest) {
