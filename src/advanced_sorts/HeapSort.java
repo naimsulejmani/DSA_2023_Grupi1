@@ -23,7 +23,7 @@ public class HeapSort<T extends Comparable<T>> implements Sortable<T> {
         if (leftIndex < length && array[leftIndex].compareTo(array[largest]) > 0) {
             largest = leftIndex;
         }
-        if (rightIndex < length && array[rightIndex].compareTo(array[largest]) > 0) {
+            if (rightIndex < length && array[rightIndex].compareTo(array[largest]) > 0) {
             largest = rightIndex;
         }
         if (currentIndex != largest) {

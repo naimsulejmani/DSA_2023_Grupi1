@@ -4,10 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c51999c6-4b54-43e0-8e5c-1cd17f4a77fa" name="Changes" comment="HeapSort">
+    <list default="true" id="c51999c6-4b54-43e0-8e5c-1cd17f4a77fa" name="Changes" comment="HeapSort a">
+      <change afterPath="$PROJECT_DIR$/src/advanced_sorts/MergeSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/advanced_sorts/MergeSortTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/advanced_sorts/HeapSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/advanced_sorts/HeapSort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/advanced_sorts/HeapSortTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/advanced_sorts/HeapSortTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,7 +53,7 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.HeapSortTest">
+  <component name="RunManager" selected="Application.MyClass">
     <configuration name="HashTableTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="hashtable.HashTableTest" />
       <module name="DSA_2023_G1" />
@@ -79,6 +80,32 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="MergeSortTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="advanced_sorts.MergeSortTest" />
+      <module name="DSA_2023_G1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="advanced_sorts.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MyClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="advanced_sorts.MyClass" />
+      <module name="DSA_2023_G1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="advanced_sorts.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="NodeTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="hashtable.NodeTest" />
       <module name="DSA_2023_G1" />
@@ -92,39 +119,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PersonTestHash" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="hashtable.PersonTestHash" />
-      <module name="DSA_2023_G1" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="hashtable.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TreeMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="trees.TreeMain" />
-      <module name="DSA_2023_G1" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="trees.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MyClass" />
+        <item itemvalue="Application.MergeSortTest" />
         <item itemvalue="Application.HeapSortTest" />
         <item itemvalue="Application.HashTableTest" />
         <item itemvalue="Application.NodeTest" />
-        <item itemvalue="Application.PersonTestHash" />
-        <item itemvalue="Application.TreeMain" />
       </list>
     </recent_temporary>
   </component>
@@ -173,7 +174,9 @@
       <workItem from="1683281892298" duration="303000" />
       <workItem from="1683300052597" duration="5260000" />
       <workItem from="1683360216309" duration="24000" />
-      <workItem from="1683731477302" duration="2120000" />
+      <workItem from="1683731477302" duration="2480000" />
+      <workItem from="1683887209277" duration="2000" />
+      <workItem from="1683907612102" duration="2311000" />
     </task>
     <task id="LOCAL-00001" summary="kerkimi binar">
       <created>1678222544639</created>
@@ -294,7 +297,14 @@
       <option name="project" value="LOCAL" />
       <updated>1683737709902</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="HeapSort a">
+      <created>1683737927608</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1683737927608</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -317,7 +327,8 @@
     <MESSAGE value="hashCode &amp; hashFunction" />
     <MESSAGE value="Hashtable" />
     <MESSAGE value="HeapSort" />
-    <option name="LAST_COMMIT_MESSAGE" value="HeapSort" />
+    <MESSAGE value="HeapSort a" />
+    <option name="LAST_COMMIT_MESSAGE" value="HeapSort a" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
