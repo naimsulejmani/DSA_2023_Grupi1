@@ -23,9 +23,14 @@ public class Helper {
         array[from] = array[to];
         array[to] = temp;
     }
+
+    public static <T> void swap(T[] array, int from, int to) {
+        T temp = array[from];
+        array[from] = array[to];
+        array[to] = temp;
+    }
+
 }
-
-
 
 
 

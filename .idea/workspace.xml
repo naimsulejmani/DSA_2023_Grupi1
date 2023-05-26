@@ -4,11 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c51999c6-4b54-43e0-8e5c-1cd17f4a77fa" name="Changes" comment="HeapSort a">
-      <change afterPath="$PROJECT_DIR$/src/advanced_sorts/MergeSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/advanced_sorts/MergeSortTest.java" afterDir="false" />
+    <list default="true" id="c51999c6-4b54-43e0-8e5c-1cd17f4a77fa" name="Changes" comment="Merge Sort">
+      <change afterPath="$PROJECT_DIR$/src/advanced_sorts/ShellSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/advanced_sorts/ShellSortTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/advanced_sorts/HeapSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/advanced_sorts/HeapSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/shared/Helper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/shared/Helper.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,25 +35,25 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;full.screen.before.presentation.mode&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "full.screen.before.presentation.mode": "true",
+    "git-widget-placeholder": "master",
+    "ignore.virus.scanning.warn.message": "true",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "preferences.lookFeel",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
-  <component name="RunManager" selected="Application.MyClass">
+}]]></component>
+  <component name="RunManager" selected="Application.ShellSortTest">
     <configuration name="HashTableTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="hashtable.HashTableTest" />
       <module name="DSA_2023_G1" />
@@ -106,12 +106,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NodeTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="hashtable.NodeTest" />
+    <configuration name="ShellSortTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="advanced_sorts.ShellSortTest" />
       <module name="DSA_2023_G1" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="hashtable.*" />
+          <option name="PATTERN" value="advanced_sorts.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -121,11 +121,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ShellSortTest" />
         <item itemvalue="Application.MyClass" />
         <item itemvalue="Application.MergeSortTest" />
         <item itemvalue="Application.HeapSortTest" />
         <item itemvalue="Application.HashTableTest" />
-        <item itemvalue="Application.NodeTest" />
       </list>
     </recent_temporary>
   </component>
@@ -177,6 +177,11 @@
       <workItem from="1683731477302" duration="2480000" />
       <workItem from="1683887209277" duration="2000" />
       <workItem from="1683907612102" duration="2311000" />
+      <workItem from="1683917638824" duration="29000" />
+      <workItem from="1683977650842" duration="324000" />
+      <workItem from="1684154551610" duration="428000" />
+      <workItem from="1684336144647" duration="618000" />
+      <workItem from="1684510145648" duration="1835000" />
     </task>
     <task id="LOCAL-00001" summary="kerkimi binar">
       <created>1678222544639</created>
@@ -304,7 +309,14 @@
       <option name="project" value="LOCAL" />
       <updated>1683737927608</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="Merge Sort">
+      <created>1683917649921</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1683917649921</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -328,7 +340,8 @@
     <MESSAGE value="Hashtable" />
     <MESSAGE value="HeapSort" />
     <MESSAGE value="HeapSort a" />
-    <option name="LAST_COMMIT_MESSAGE" value="HeapSort a" />
+    <MESSAGE value="Merge Sort" />
+    <option name="LAST_COMMIT_MESSAGE" value="Merge Sort" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
