@@ -4,11 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c51999c6-4b54-43e0-8e5c-1cd17f4a77fa" name="Changes" comment="Merge Sort">
-      <change afterPath="$PROJECT_DIR$/src/advanced_sorts/ShellSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/advanced_sorts/ShellSortTest.java" afterDir="false" />
+    <list default="true" id="c51999c6-4b54-43e0-8e5c-1cd17f4a77fa" name="Changes" comment="Shell Sort">
+      <change afterPath="$PROJECT_DIR$/src/graphs/AdjacencyMatrixGraph.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/graphs/GraphType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/graphs/Graphable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/graphs/TestAdjacencyMatrix.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/shared/Helper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/shared/Helper.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,6 +20,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
+        <option value="Enum" />
         <option value="Class" />
       </list>
     </option>
@@ -41,7 +43,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
-    "full.screen.before.presentation.mode": "true",
+    "full.screen.before.presentation.mode": "false",
     "git-widget-placeholder": "master",
     "ignore.virus.scanning.warn.message": "true",
     "node.js.detected.package.eslint": "true",
@@ -53,20 +55,7 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.ShellSortTest">
-    <configuration name="HashTableTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="hashtable.HashTableTest" />
-      <module name="DSA_2023_G1" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="hashtable.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.TestAdjacencyMatrix">
     <configuration name="HeapSortTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="advanced_sorts.HeapSortTest" />
       <module name="DSA_2023_G1" />
@@ -119,13 +108,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TestAdjacencyMatrix" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="graphs.TestAdjacencyMatrix" />
+      <module name="DSA_2023_G1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="graphs.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TestAdjacencyMatrix" />
         <item itemvalue="Application.ShellSortTest" />
         <item itemvalue="Application.MyClass" />
         <item itemvalue="Application.MergeSortTest" />
         <item itemvalue="Application.HeapSortTest" />
-        <item itemvalue="Application.HashTableTest" />
       </list>
     </recent_temporary>
   </component>
@@ -182,6 +184,7 @@
       <workItem from="1684154551610" duration="428000" />
       <workItem from="1684336144647" duration="618000" />
       <workItem from="1684510145648" duration="1835000" />
+      <workItem from="1685114047214" duration="2802000" />
     </task>
     <task id="LOCAL-00001" summary="kerkimi binar">
       <created>1678222544639</created>
@@ -316,7 +319,14 @@
       <option name="project" value="LOCAL" />
       <updated>1683917649921</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="Shell Sort">
+      <created>1685114055551</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1685114055551</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -341,7 +351,8 @@
     <MESSAGE value="HeapSort" />
     <MESSAGE value="HeapSort a" />
     <MESSAGE value="Merge Sort" />
-    <option name="LAST_COMMIT_MESSAGE" value="Merge Sort" />
+    <MESSAGE value="Shell Sort" />
+    <option name="LAST_COMMIT_MESSAGE" value="Shell Sort" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -375,6 +386,11 @@
           <url>file://$PROJECT_DIR$/src/trees/TreeMain.java</url>
           <line>20</line>
           <option name="timeStamp" value="12" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/graphs/TestAdjacencyMatrix.java</url>
+          <line>4</line>
+          <option name="timeStamp" value="13" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
